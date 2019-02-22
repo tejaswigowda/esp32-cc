@@ -57,7 +57,8 @@ src/bootloader_utility.o: \
  /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_config.h \
  /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include/bootloader_common.h \
  /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_utility.h \
- /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
+ /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h \
+ /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include/esp_efuse.h
 
 /home/ubuntu/esp32-cc/esp-idf/components/esp32/include/esp_attr.h:
 
@@ -174,4 +175,6 @@ src/bootloader_utility.o: \
 /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_utility.h:
 
 /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h:
+
+/home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include/esp_efuse.h:
 /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/src/bootloader_utility.c:

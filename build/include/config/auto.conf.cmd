@@ -9,6 +9,7 @@ deps_config := \
 	/home/ubuntu/esp32-cc/esp-idf/components/esp_http_client/Kconfig \
 	/home/ubuntu/esp32-cc/esp-idf/components/esp_http_server/Kconfig \
 	/home/ubuntu/esp32-cc/esp-idf/components/esp_https_ota/Kconfig \
+	/home/ubuntu/esp32-cc/esp-idf/components/espcoredump/Kconfig \
 	/home/ubuntu/esp32-cc/esp-idf/components/ethernet/Kconfig \
 	/home/ubuntu/esp32-cc/esp-idf/components/fatfs/Kconfig \
 	/home/ubuntu/esp32-cc/esp-idf/components/freemodbus/Kconfig \

@@ -167,8 +167,10 @@ SECTIONS
     *libesp_ringbuf.a:( .literal  .literal.*  .text  .text.*)
     *libhal.a:( .literal  .literal.*  .text  .text.*)
     *libapp_trace.a:( .literal  .literal.*  .text  .text.*)
-    *libesp32.a:core_dump.*( .literal  .literal.*  .text  .text.*)
     *libesp32.a:panic.*( .literal  .literal.*  .text  .text.*)
+    *libespcoredump.a:core_dump_flash.*( .literal  .literal.*  .text  .text.*)
+    *libespcoredump.a:core_dump_common.*( .literal  .literal.*  .text  .text.*)
+    *libespcoredump.a:core_dump_uart.*( .literal  .literal.*  .text  .text.*)
     *librtc.a:( .literal  .literal.*  .text  .text.*)
     *libgcc.a:lib2funcs.*( .literal  .literal.*  .text  .text.*)
     *libsoc.a:rtc_init.*( .literal  .literal.*  .text  .text.*)
@@ -180,13 +182,12 @@ SECTIONS
     *libsoc.a:rtc_sleep.*( .literal  .literal.*  .text  .text.*)
     *libsoc.a:cpu_util.*( .literal  .literal.*  .text  .text.*)
     *libsoc.a:rtc_clk.*( .literal  .literal.*  .text  .text.*)
-    *libfreertos.a:( .literal  .literal.*  .text  .text.*)
     *libgcov.a:( .literal  .literal.*  .text  .text.*)
+    *libfreertos.a:( .literal  .literal.*  .text  .text.*)
     *libxtensa-debug-module.a:eri.*( .literal  .literal.*  .text  .text.*)
     *libheap.a:multi_heap_poisoning.*( .literal  .literal.*  .text  .text.*)
     *libheap.a:multi_heap.*( .literal  .literal.*  .text  .text.*)
-    
-    INCLUDE esp32.spiram.rom-functions-iram.ld
+
     _iram_text_end = ABSOLUTE(.);
     _iram_end = ABSOLUTE(.);
   } > iram0_0_seg
@@ -224,7 +225,6 @@ SECTIONS
     *libheap.a:multi_heap_poisoning.*( .rodata  .rodata.*)
     *libheap.a:multi_heap.*( .rodata  .rodata.*)
 
-    INCLUDE esp32.spiram.rom-functions-dram.ld
     _data_end = ABSOLUTE(.);
     . = ALIGN(4);
   } > dram0_0_seg
@@ -348,7 +348,7 @@ SECTIONS
     _stext = .;
     _text_start = ABSOLUTE(.);
 
-    *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libesp32.a:core_dump.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libfreertos.a *libgcov.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libesp32.a:core_dump.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libfreertos.a *libgcov.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libesp32.a:core_dump.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libfreertos.a *libgcov.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libesp32.a:core_dump.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libfreertos.a *libgcov.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .text.*)
+    *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libgcov.a *libfreertos.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libgcov.a *libfreertos.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libgcov.a *libfreertos.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_rom_patch.* *libesp_ringbuf.a *libhal.a *libapp_trace.a *libesp32.a:panic.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_flash.* *librtc.a *libgcc.a:lib2funcs.* *libsoc.a:rtc_clk.* *libsoc.a:cpu_util.* *libsoc.a:rtc_sleep.* *libsoc.a:rtc_clk_init.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_wdt.* *libsoc.a:rtc_time.* *libsoc.a:rtc_init.* *libgcov.a *libfreertos.a *libxtensa-debug-module.a:eri.* *libheap.a:multi_heap.* *libheap.a:multi_heap_poisoning.*) .text.*)
 
     *(.stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
     *(.irom0.text) /* catch stray ICACHE_RODATA_ATTR */

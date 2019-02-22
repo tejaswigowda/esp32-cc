@@ -2865,155 +2865,159 @@ spi_common.o:     file format elf32-xtensa-le
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.reset_func_to_gpio 00000024  00000000  00000000  00000034  2**2
+  0 .literal.bus_uses_iomux_pins 00000004  00000000  00000000  00000034  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .literal.spicommon_periph_claim 00000020  00000000  00000000  00000058  2**2
+  1 .literal.reset_func_to_gpio 00000024  00000000  00000000  00000038  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  2 .literal.spicommon_periph_in_use 00000004  00000000  00000000  00000078  2**2
+  2 .literal.spicommon_periph_claim 00000020  00000000  00000000  0000005c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  3 .literal.spicommon_periph_free 0000000c  00000000  00000000  0000007c  2**2
+  3 .literal.spicommon_periph_in_use 00000004  00000000  00000000  0000007c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  4 .literal.spicommon_irqsource_for_host 00000004  00000000  00000000  00000088  2**2
+  4 .literal.spicommon_periph_free 0000000c  00000000  00000000  00000080  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  5 .literal.spicommon_hw_for_host 00000004  00000000  00000000  0000008c  2**2
+  5 .literal.spicommon_irqsource_for_host 00000004  00000000  00000000  0000008c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  6 .literal.spicommon_dma_chan_claim 00000024  00000000  00000000  00000090  2**2
+  6 .literal.spicommon_hw_for_host 00000004  00000000  00000000  00000090  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  7 .literal.spicommon_dma_chan_in_use 00000014  00000000  00000000  000000b4  2**2
+  7 .literal.spicommon_dma_chan_claim 00000024  00000000  00000000  00000094  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  8 .literal.spicommon_dma_chan_free 0000002c  00000000  00000000  000000c8  2**2
+  8 .literal.spicommon_dma_chan_in_use 00000014  00000000  00000000  000000b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  9 .literal.spicommon_bus_initialize_io 000001ac  00000000  00000000  000000f4  2**2
+  9 .literal.spicommon_dma_chan_free 0000002c  00000000  00000000  000000cc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 10 .literal.spicommon_bus_free_io 000000e8  00000000  00000000  000002a0  2**2
+ 10 .literal.spicommon_bus_initialize_io 000001c8  00000000  00000000  000000f8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 11 .literal.spicommon_bus_free_io_cfg 00000008  00000000  00000000  00000388  2**2
+ 11 .literal.spicommon_bus_free_io 000000e8  00000000  00000000  000002c0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 12 .literal.spicommon_cs_initialize 0000004c  00000000  00000000  00000390  2**2
+ 12 .literal.spicommon_bus_free_io_cfg 00000008  00000000  00000000  000003a8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 13 .literal.spicommon_cs_free 00000048  00000000  00000000  000003dc  2**2
+ 13 .literal.spicommon_cs_initialize 00000050  00000000  00000000  000003b0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 14 .literal.spicommon_cs_free_io 00000018  00000000  00000000  00000424  2**2
+ 14 .literal.spicommon_cs_free 00000048  00000000  00000000  00000400  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 15 .iram1.13.literal 0000001c  00000000  00000000  0000043c  2**2
+ 15 .literal.spicommon_cs_free_io 00000018  00000000  00000000  00000448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .iram1.13.literal 0000001c  00000000  00000000  00000460  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 16 .iram1.14.literal 00000020  00000000  00000000  00000458  2**2
+ 17 .iram1.14.literal 00000020  00000000  00000000  0000047c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 17 .iram1.15.literal 00000004  00000000  00000000  00000478  2**2
+ 18 .iram1.15.literal 00000004  00000000  00000000  0000049c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 18 .iram1.16.literal 00000020  00000000  00000000  0000047c  2**2
+ 19 .iram1.16.literal 00000020  00000000  00000000  000004a0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 19 .iram1.17.literal 00000010  00000000  00000000  0000049c  2**2
+ 20 .iram1.17.literal 00000010  00000000  00000000  000004c0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 20 .text         00000000  00000000  00000000  000004ac  2**0
+ 21 .text         00000000  00000000  00000000  000004d0  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 21 .data         00000000  00000000  00000000  000004ac  2**0
+ 22 .data         00000000  00000000  00000000  000004d0  2**0
                   CONTENTS, ALLOC, LOAD, DATA
- 22 .bss          00000000  00000000  00000000  000004ac  2**0
+ 23 .bss          00000000  00000000  00000000  000004d0  2**0
                   ALLOC
- 23 .rodata.str1.4 000026e2  00000000  00000000  000004ac  2**2
+ 24 .text.bus_uses_iomux_pins 00000080  00000000  00000000  000004d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .rodata.str1.4 000027b2  00000000  00000000  00000550  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 24 .text.reset_func_to_gpio 0000005f  00000000  00000000  00002b90  2**2
+ 26 .text.reset_func_to_gpio 0000005f  00000000  00000000  00002d04  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 25 .text.spicommon_periph_claim 000000a8  00000000  00000000  00002bf0  2**2
+ 27 .text.spicommon_periph_claim 000000a8  00000000  00000000  00002d64  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 26 .text.spicommon_periph_in_use 0000001d  00000000  00000000  00002c98  2**2
+ 28 .text.spicommon_periph_in_use 0000001d  00000000  00000000  00002e0c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 27 .text.spicommon_periph_free 00000080  00000000  00000000  00002cb8  2**2
+ 29 .text.spicommon_periph_free 00000080  00000000  00000000  00002e2c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 28 .text.spicommon_irqsource_for_host 00000010  00000000  00000000  00002d38  2**2
+ 30 .text.spicommon_irqsource_for_host 00000010  00000000  00000000  00002eac  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 29 .text.spicommon_hw_for_host 0000000f  00000000  00000000  00002d48  2**2
+ 31 .text.spicommon_hw_for_host 0000000f  00000000  00000000  00002ebc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 30 .text.spicommon_dma_chan_claim 00000057  00000000  00000000  00002d58  2**2
+ 32 .text.spicommon_dma_chan_claim 00000057  00000000  00000000  00002ecc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 31 .text.spicommon_dma_chan_in_use 00000034  00000000  00000000  00002db0  2**2
+ 33 .text.spicommon_dma_chan_in_use 00000034  00000000  00000000  00002f24  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 32 .text.spicommon_dma_chan_free 00000075  00000000  00000000  00002de4  2**2
+ 34 .text.spicommon_dma_chan_free 00000075  00000000  00000000  00002f58  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 33 .text.spicommon_bus_initialize_io 0000082a  00000000  00000000  00002e5c  2**2
+ 35 .text.spicommon_bus_initialize_io 0000082e  00000000  00000000  00002fd0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 34 .text.spicommon_bus_free_io 000003c1  00000000  00000000  00003688  2**2
+ 36 .text.spicommon_bus_free_io 000003c1  00000000  00000000  00003800  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 35 .text.spicommon_bus_free_io_cfg 0000003f  00000000  00000000  00003a4c  2**2
+ 37 .text.spicommon_bus_free_io_cfg 0000003f  00000000  00000000  00003bc4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 36 .text.spicommon_cs_initialize 000000e0  00000000  00000000  00003a8c  2**2
+ 38 .text.spicommon_cs_initialize 00000104  00000000  00000000  00003c04  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 37 .text.spicommon_cs_free 000000d2  00000000  00000000  00003b6c  2**2
+ 39 .text.spicommon_cs_free 000000d2  00000000  00000000  00003d08  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 38 .text.spicommon_cs_free_io 00000030  00000000  00000000  00003c40  2**2
+ 40 .text.spicommon_cs_free_io 00000030  00000000  00000000  00003ddc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 39 .iram1.13     00000105  00000000  00000000  00003c70  2**2
+ 41 .iram1.13     00000105  00000000  00000000  00003e0c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 40 .iram1.14     00000052  00000000  00000000  00003d78  2**2
+ 42 .iram1.14     00000052  00000000  00000000  00003f14  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 41 .iram1.15     00000011  00000000  00000000  00003dcc  2**2
+ 43 .iram1.15     00000011  00000000  00000000  00003f68  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 42 .iram1.16     0000004b  00000000  00000000  00003de0  2**2
+ 44 .iram1.16     0000004b  00000000  00000000  00003f7c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 43 .iram1.17     00000027  00000000  00000000  00003e2c  2**2
+ 45 .iram1.17     00000027  00000000  00000000  00003fc8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 44 .rodata.__func__$6408 00000015  00000000  00000000  00003e54  2**2
+ 46 .rodata.__func__$6415 00000015  00000000  00000000  00003ff0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 45 .rodata.__func__$6399 00000012  00000000  00000000  00003e6c  2**2
+ 47 .rodata.__func__$6406 00000012  00000000  00000000  00004008  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 46 .rodata.__func__$6391 00000018  00000000  00000000  00003e80  2**2
+ 48 .rodata.__func__$6398 00000018  00000000  00000000  0000401c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 47 .rodata.__func__$6342 00000013  00000000  00000000  00003e98  2**2
+ 49 .rodata.__func__$6349 00000013  00000000  00000000  00004034  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 48 .rodata.__func__$6350 00000016  00000000  00000000  00003eac  2**2
+ 50 .rodata.__func__$6357 00000016  00000000  00000000  00004048  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 49 .rodata.__func__$6322 0000001c  00000000  00000000  00003ec4  2**2
+ 51 .rodata.__func__$6329 0000001c  00000000  00000000  00004060  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 50 .rodata.__FUNCTION__$6321 0000001c  00000000  00000000  00003ee0  2**2
+ 52 .rodata.__FUNCTION__$6326 0000001c  00000000  00000000  0000407c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 51 .rodata.__func__$6308 00000018  00000000  00000000  00003efc  2**2
+ 53 .rodata.__func__$6308 00000018  00000000  00000000  00004098  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 52 .rodata.__func__$6304 0000001a  00000000  00000000  00003f14  2**2
+ 54 .rodata.__func__$6304 0000001a  00000000  00000000  000040b0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 53 .rodata.__func__$6300 00000019  00000000  00000000  00003f30  2**2
+ 55 .rodata.__func__$6300 00000019  00000000  00000000  000040cc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 54 .bss.dmaworkaround_waiting_for_chan 00000004  00000000  00000000  00003f4c  2**2
+ 56 .bss.dmaworkaround_waiting_for_chan 00000004  00000000  00000000  000040e8  2**2
                   ALLOC
- 55 .data.dmaworkaround_mux 00000008  00000000  00000000  00003f4c  2**2
+ 57 .data.dmaworkaround_mux 00000008  00000000  00000000  000040e8  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 56 .bss.dmaworkaround_cb_arg 00000004  00000000  00000000  00003f54  2**2
+ 58 .bss.dmaworkaround_cb_arg 00000004  00000000  00000000  000040f0  2**2
                   ALLOC
- 57 .bss.dmaworkaround_cb 00000004  00000000  00000000  00003f54  2**2
+ 59 .bss.dmaworkaround_cb 00000004  00000000  00000000  000040f0  2**2
                   ALLOC
- 58 .bss.dmaworkaround_channels_busy 00000008  00000000  00000000  00003f54  2**2
+ 60 .bss.dmaworkaround_channels_busy 00000008  00000000  00000000  000040f0  2**2
                   ALLOC
- 59 .data.spi_dma_spinlock 00000008  00000000  00000000  00003f54  2**2
+ 61 .data.spi_dma_spinlock 00000008  00000000  00000000  000040f0  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 60 .bss.spi_dma_chan_enabled 00000001  00000000  00000000  00003f5c  2**0
+ 62 .bss.spi_dma_chan_enabled 00000001  00000000  00000000  000040f8  2**0
                   ALLOC
- 61 .bss.spi_claiming_func 0000000c  00000000  00000000  00003f5c  2**2
+ 63 .bss.spi_claiming_func 0000000c  00000000  00000000  000040f8  2**2
                   ALLOC
- 62 .data.spi_periph_claimed 00000003  00000000  00000000  00003f5c  2**2
+ 64 .data.spi_periph_claimed 00000003  00000000  00000000  000040f8  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 63 .debug_frame  000001f0  00000000  00000000  00003f60  2**2
+ 65 .debug_frame  00000208  00000000  00000000  000040fc  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 64 .debug_info   00004422  00000000  00000000  00004150  2**0
+ 66 .debug_info   000044d8  00000000  00000000  00004304  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 65 .debug_abbrev 000003b6  00000000  00000000  00008572  2**0
+ 67 .debug_abbrev 000003df  00000000  00000000  000087dc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 66 .debug_loc    00000a6f  00000000  00000000  00008928  2**0
+ 68 .debug_loc    000008dc  00000000  00000000  00008bbb  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 67 .debug_aranges 000000b8  00000000  00000000  00009397  2**0
+ 69 .debug_aranges 000000c0  00000000  00000000  00009497  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 68 .debug_ranges 000000a8  00000000  00000000  0000944f  2**0
+ 70 .debug_ranges 000000b0  00000000  00000000  00009557  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 69 .debug_line   0000109a  00000000  00000000  000094f7  2**0
+ 71 .debug_line   000011c2  00000000  00000000  00009607  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 70 .debug_str    00002273  00000000  00000000  0000a591  2**0
+ 72 .debug_str    000022bd  00000000  00000000  0000a7c9  2**0
                   CONTENTS, READONLY, DEBUGGING
- 71 .comment      0000003b  00000000  00000000  0000c804  2**0
+ 73 .comment      0000003b  00000000  00000000  0000ca86  2**0
                   CONTENTS, READONLY
- 72 .xtensa.info  00000038  00000000  00000000  0000c83f  2**0
+ 74 .xtensa.info  00000038  00000000  00000000  0000cac1  2**0
                   CONTENTS, READONLY
- 73 .xt.lit       000000a0  00000000  00000000  0000c877  2**0
+ 75 .xt.lit       000000a8  00000000  00000000  0000caf9  2**0
                   CONTENTS, RELOC, READONLY
- 74 .xt.prop      00000a8c  00000000  00000000  0000c917  2**0
+ 76 .xt.prop      00000aec  00000000  00000000  0000cba1  2**0
                   CONTENTS, RELOC, READONLY
 
 can.o:     file format elf32-xtensa-le

@@ -18,6 +18,7 @@
  /home/ubuntu/esp32-cc/build/esp_https_ota/libesp_https_ota.a.sections_info
  /home/ubuntu/esp32-cc/build/esp_https_server/libesp_https_server.a.sections_info
  /home/ubuntu/esp32-cc/build/esp_ringbuf/libesp_ringbuf.a.sections_info
+ /home/ubuntu/esp32-cc/build/espcoredump/libespcoredump.a.sections_info
  /home/ubuntu/esp32-cc/build/ethernet/libethernet.a.sections_info
  /home/ubuntu/esp32-cc/build/expat/libexpat.a.sections_info
  /home/ubuntu/esp32-cc/build/fatfs/libfatfs.a.sections_info

@@ -103,7 +103,8 @@ esp_ota_ops.o: \
  /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/sys/param.h \
  /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/machine/endian.h \
- /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/machine/param.h
+ /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/machine/param.h \
+ /home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include/esp_efuse.h
 
 /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/stdint.h:
 
@@ -312,4 +313,6 @@ esp_ota_ops.o: \
 /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/machine/endian.h:
 
 /home/ubuntu/esp32-cc/esp-idf/components/newlib/include/machine/param.h:
+
+/home/ubuntu/esp32-cc/esp-idf/components/bootloader_support/include/esp_efuse.h:
 /home/ubuntu/esp32-cc/esp-idf/components/app_update/./esp_ota_ops.c:

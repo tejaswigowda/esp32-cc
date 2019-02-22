@@ -1794,11 +1794,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  49 .text.bta_gattc_co_cache_reset 0000000e  00000000  00000000  00001008  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 50 .rodata.__func__$11091 0000001d  00000000  00000000  00001018  2**2
+ 50 .rodata.__func__$11092 0000001d  00000000  00000000  00001018  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 51 .rodata.__func__$11032 0000001d  00000000  00000000  00001038  2**2
+ 51 .rodata.__func__$11033 0000001d  00000000  00000000  00001038  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 52 .rodata.__func__$10974 0000000b  00000000  00000000  00001058  2**2
+ 52 .rodata.__func__$10975 0000000b  00000000  00000000  00001058  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
  53 .debug_frame  00000238  00000000  00000000  00001064  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
@@ -2832,81 +2832,81 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  32 .rodata.str1.4 000004c2  00000000  00000000  00000374  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 33 .text.bta_gatts_send_request_cback 000000bc  00000000  00000000  00000838  2**2
+ 33 .text.bta_gatts_send_request_cback 000000c4  00000000  00000000  00000838  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 34 .text.bta_gatts_conn_cback 000000bc  00000000  00000000  000008f4  2**2
+ 34 .text.bta_gatts_conn_cback 000000bc  00000000  00000000  000008fc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 35 .text.bta_gatts_enable 00000082  00000000  00000000  000009b0  2**2
+ 35 .text.bta_gatts_enable 00000082  00000000  00000000  000009b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 36 .text.bta_gatts_api_disable 00000064  00000000  00000000  00000a34  2**2
+ 36 .text.bta_gatts_api_disable 00000064  00000000  00000000  00000a3c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 37 .text.bta_gatts_register 00000140  00000000  00000000  00000a98  2**2
+ 37 .text.bta_gatts_register 00000140  00000000  00000000  00000aa0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 38 .text.bta_gatts_start_if 00000043  00000000  00000000  00000bd8  2**2
+ 38 .text.bta_gatts_start_if 00000043  00000000  00000000  00000be0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 39 .text.bta_gatts_deregister 00000082  00000000  00000000  00000c1c  2**2
+ 39 .text.bta_gatts_deregister 00000082  00000000  00000000  00000c24  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 40 .text.bta_gatts_create_srvc 0000013a  00000000  00000000  00000ca0  2**2
+ 40 .text.bta_gatts_create_srvc 0000013a  00000000  00000000  00000ca8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 41 .text.bta_gatts_add_include_srvc 0000004f  00000000  00000000  00000ddc  2**2
+ 41 .text.bta_gatts_add_include_srvc 0000004f  00000000  00000000  00000de4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 42 .text.bta_gatts_add_char 0000008e  00000000  00000000  00000e2c  2**2
+ 42 .text.bta_gatts_add_char 0000008e  00000000  00000000  00000e34  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 43 .text.bta_gatts_add_char_descr 0000008a  00000000  00000000  00000ebc  2**2
+ 43 .text.bta_gatts_add_char_descr 0000008a  00000000  00000000  00000ec4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 44 .text.bta_gatts_set_attr_value 00000052  00000000  00000000  00000f48  2**2
+ 44 .text.bta_gatts_set_attr_value 00000052  00000000  00000000  00000f50  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 45 .text.bta_gatts_get_attr_value 00000014  00000000  00000000  00000f9c  2**2
+ 45 .text.bta_gatts_get_attr_value 00000014  00000000  00000000  00000fa4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 46 .text.bta_gatts_delete_service 00000057  00000000  00000000  00000fb0  2**2
+ 46 .text.bta_gatts_delete_service 00000057  00000000  00000000  00000fb8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 47 .text.bta_gatts_start_service 0000004b  00000000  00000000  00001008  2**2
+ 47 .text.bta_gatts_start_service 0000004b  00000000  00000000  00001010  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 48 .text.bta_gatts_stop_service 00000036  00000000  00000000  00001054  2**2
+ 48 .text.bta_gatts_stop_service 00000036  00000000  00000000  0000105c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 49 .text.bta_gatts_send_rsp 00000038  00000000  00000000  0000108c  2**2
+ 49 .text.bta_gatts_send_rsp 00000038  00000000  00000000  00001094  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 50 .text.bta_gatts_indicate_handle 000001a7  00000000  00000000  000010c4  2**2
+ 50 .text.bta_gatts_indicate_handle 000001a7  00000000  00000000  000010cc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 51 .text.bta_gatts_open 0000009b  00000000  00000000  0000126c  2**2
+ 51 .text.bta_gatts_open 0000009b  00000000  00000000  00001274  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 52 .text.bta_gatts_cancel_open 0000009b  00000000  00000000  00001308  2**2
+ 52 .text.bta_gatts_cancel_open 0000009b  00000000  00000000  00001310  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 53 .text.bta_gatts_close 000000b7  00000000  00000000  000013a4  2**2
+ 53 .text.bta_gatts_close 000000b7  00000000  00000000  000013ac  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 54 .text.bta_gatts_send_service_change_indication 00000068  00000000  00000000  0000145c  2**2
+ 54 .text.bta_gatts_send_service_change_indication 00000068  00000000  00000000  00001464  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 55 .text.bta_gatts_listen 00000082  00000000  00000000  000014c4  2**2
+ 55 .text.bta_gatts_listen 00000082  00000000  00000000  000014cc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 56 .rodata.__func__$9882 0000001a  00000000  00000000  00001548  2**2
+ 56 .rodata.__func__$9882 0000001a  00000000  00000000  00001550  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 57 .data.bta_gatts_nv_cback 00000008  00000000  00000000  00001564  2**2
+ 57 .data.bta_gatts_nv_cback 00000008  00000000  00000000  0000156c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, DATA
- 58 .data.bta_gatts_cback 0000001c  00000000  00000000  0000156c  2**2
+ 58 .data.bta_gatts_cback 0000001c  00000000  00000000  00001574  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, DATA
- 59 .debug_frame  00000280  00000000  00000000  00001588  2**2
+ 59 .debug_frame  00000280  00000000  00000000  00001590  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 60 .debug_info   000030c9  00000000  00000000  00001808  2**0
+ 60 .debug_info   000030c9  00000000  00000000  00001810  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 61 .debug_abbrev 00000435  00000000  00000000  000048d1  2**0
+ 61 .debug_abbrev 00000435  00000000  00000000  000048d9  2**0
                   CONTENTS, READONLY, DEBUGGING
- 62 .debug_loc    00000c26  00000000  00000000  00004d06  2**0
+ 62 .debug_loc    00000c26  00000000  00000000  00004d0e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 63 .debug_aranges 000000e8  00000000  00000000  0000592c  2**0
+ 63 .debug_aranges 000000e8  00000000  00000000  00005934  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 64 .debug_ranges 000000d8  00000000  00000000  00005a14  2**0
+ 64 .debug_ranges 000000d8  00000000  00000000  00005a1c  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 65 .debug_line   00000e48  00000000  00000000  00005aec  2**0
+ 65 .debug_line   00000e54  00000000  00000000  00005af4  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 66 .debug_str    00001ddb  00000000  00000000  00006934  2**0
+ 66 .debug_str    00001ddb  00000000  00000000  00006948  2**0
                   CONTENTS, READONLY, DEBUGGING
- 67 .comment      0000003b  00000000  00000000  0000870f  2**0
+ 67 .comment      0000003b  00000000  00000000  00008723  2**0
                   CONTENTS, READONLY
- 68 .xtensa.info  00000038  00000000  00000000  0000874a  2**0
+ 68 .xtensa.info  00000038  00000000  00000000  0000875e  2**0
                   CONTENTS, READONLY
- 69 .xt.lit       000000d0  00000000  00000000  00008782  2**0
+ 69 .xt.lit       000000d0  00000000  00000000  00008796  2**0
                   CONTENTS, RELOC, READONLY
- 70 .xt.prop      00000bac  00000000  00000000  00008852  2**0
+ 70 .xt.prop      00000bb8  00000000  00000000  00008866  2**0
                   CONTENTS, RELOC, READONLY
 
 bta_gattc_utils.o:     file format elf32-xtensa-le
@@ -6047,43 +6047,43 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  61 .text.config_save 000002e4  00000000  00000000  0000154c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 62 .rodata.__func__$5453 00000010  00000000  00000000  00001830  2**2
+ 62 .rodata.__func__$5454 00000010  00000000  00000000  00001830  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 63 .rodata.__func__$5483 0000000c  00000000  00000000  00001840  2**2
+ 63 .rodata.__func__$5484 0000000c  00000000  00000000  00001840  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 64 .rodata.__func__$5447 00000014  00000000  00000000  0000184c  2**2
+ 64 .rodata.__func__$5448 00000014  00000000  00000000  0000184c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 65 .rodata.__func__$5443 00000014  00000000  00000000  00001860  2**2
+ 65 .rodata.__func__$5444 00000014  00000000  00000000  00001860  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 66 .rodata.__func__$5439 00000013  00000000  00000000  00001874  2**2
+ 66 .rodata.__func__$5440 00000013  00000000  00000000  00001874  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 67 .rodata.__func__$5435 00000015  00000000  00000000  00001888  2**2
+ 67 .rodata.__func__$5436 00000015  00000000  00000000  00001888  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 68 .rodata.__func__$5429 00000012  00000000  00000000  000018a0  2**2
+ 68 .rodata.__func__$5430 00000012  00000000  00000000  000018a0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 69 .rodata.__func__$5422 00000016  00000000  00000000  000018b4  2**2
+ 69 .rodata.__func__$5423 00000016  00000000  00000000  000018b4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 70 .rodata.__func__$5403 00000010  00000000  00000000  000018cc  2**2
+ 70 .rodata.__func__$5404 00000010  00000000  00000000  000018cc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 71 .rodata.__func__$5395 0000000f  00000000  00000000  000018dc  2**2
+ 71 .rodata.__func__$5396 0000000f  00000000  00000000  000018dc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 72 .rodata.__func__$5387 00000012  00000000  00000000  000018ec  2**2
+ 72 .rodata.__func__$5388 00000012  00000000  00000000  000018ec  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 73 .rodata.__func__$5379 00000010  00000000  00000000  00001900  2**2
+ 73 .rodata.__func__$5380 00000010  00000000  00000000  00001900  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 74 .rodata.__func__$5369 0000000f  00000000  00000000  00001910  2**2
+ 74 .rodata.__func__$5370 0000000f  00000000  00000000  00001910  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 75 .rodata.__func__$5346 0000000f  00000000  00000000  00001920  2**2
+ 75 .rodata.__func__$5347 0000000f  00000000  00000000  00001920  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 76 .rodata.__func__$5340 00000013  00000000  00000000  00001930  2**2
+ 76 .rodata.__func__$5341 00000013  00000000  00000000  00001930  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 77 .rodata.__func__$5469 0000001b  00000000  00000000  00001944  2**2
+ 77 .rodata.__func__$5470 0000001b  00000000  00000000  00001944  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 78 .rodata.__func__$5524 0000000d  00000000  00000000  00001960  2**2
+ 78 .rodata.__func__$5525 0000000d  00000000  00000000  00001960  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 79 .rodata.__func__$5329 0000000b  00000000  00000000  00001970  2**2
+ 79 .rodata.__func__$5330 0000000b  00000000  00000000  00001970  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 80 .rodata.__func__$5324 00000011  00000000  00000000  0000197c  2**2
+ 80 .rodata.__func__$5325 00000011  00000000  00000000  0000197c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
  81 .debug_frame  000002c8  00000000  00000000  00001990  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
@@ -13260,99 +13260,99 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  19 .literal.gatts_process_attribute_req 00000028  00000000  00000000  000003b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 20 .literal.gatts_process_value_conf 00000028  00000000  00000000  000003e0  2**2
+ 20 .literal.gatts_process_value_conf 0000002c  00000000  00000000  000003e0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 21 .literal.gatt_server_handle_client_req 0000003c  00000000  00000000  00000408  2**2
+ 21 .literal.gatt_server_handle_client_req 0000003c  00000000  00000000  0000040c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 22 .text         00000000  00000000  00000000  00000444  2**0
+ 22 .text         00000000  00000000  00000000  00000448  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 23 .data         00000000  00000000  00000000  00000444  2**0
+ 23 .data         00000000  00000000  00000000  00000448  2**0
                   CONTENTS, ALLOC, LOAD, DATA
- 24 .bss          00000000  00000000  00000000  00000444  2**0
+ 24 .bss          00000000  00000000  00000000  00000448  2**0
                   ALLOC
- 25 .rodata.str1.4 0000056e  00000000  00000000  00000444  2**2
+ 25 .rodata.str1.4 0000056e  00000000  00000000  00000448  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 26 .text.process_read_multi_rsp 000001b2  00000000  00000000  000009b4  2**2
+ 26 .text.process_read_multi_rsp 000001b2  00000000  00000000  000009b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 27 .text.gatts_process_mtu_req 000000f8  00000000  00000000  00000b68  2**2
+ 27 .text.gatts_process_mtu_req 000000f8  00000000  00000000  00000b6c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 28 .text.gatts_validate_packet_format 000000e9  00000000  00000000  00000c60  2**2
+ 28 .text.gatts_validate_packet_format 000000e9  00000000  00000000  00000c64  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 29 .text.gatt_build_primary_service_rsp 000001e2  00000000  00000000  00000d4c  2**2
+ 29 .text.gatt_build_primary_service_rsp 000001e2  00000000  00000000  00000d50  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 30 .text.gatts_proc_srv_chg_ind_ack 00000036  00000000  00000000  00000f30  2**2
+ 30 .text.gatts_proc_srv_chg_ind_ack 00000036  00000000  00000000  00000f34  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 31 .text.gatts_chk_pending_ind 00000034  00000000  00000000  00000f68  2**2
+ 31 .text.gatts_chk_pending_ind 00000034  00000000  00000000  00000f6c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 32 .text.gatts_proc_ind_ack 0000002c  00000000  00000000  00000f9c  2**2
+ 32 .text.gatts_proc_ind_ack 0000002c  00000000  00000000  00000fa0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 33 .rodata       00000002  00000000  00000000  00000fc8  2**2
+ 33 .rodata       00000002  00000000  00000000  00000fcc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 34 .text.gatt_build_find_info_rsp 0000015b  00000000  00000000  00000fcc  2**2
+ 34 .text.gatt_build_find_info_rsp 0000015b  00000000  00000000  00000fd0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 35 .text.gatts_process_find_info 00000118  00000000  00000000  00001128  2**2
+ 35 .text.gatts_process_find_info 00000118  00000000  00000000  0000112c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 36 .text.gatt_send_packet 00000052  00000000  00000000  00001240  2**2
+ 36 .text.gatt_send_packet 00000052  00000000  00000000  00001244  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 37 .text.gatt_sr_enqueue_cmd 00000086  00000000  00000000  00001294  2**2
+ 37 .text.gatt_sr_enqueue_cmd 00000086  00000000  00000000  00001298  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 38 .text.gatt_sr_cmd_empty 0000000f  00000000  00000000  0000131c  2**2
+ 38 .text.gatt_sr_cmd_empty 0000000f  00000000  00000000  00001320  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 39 .text.gatt_dequeue_sr_cmd 0000007b  00000000  00000000  0000132c  2**2
+ 39 .text.gatt_dequeue_sr_cmd 0000007b  00000000  00000000  00001330  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 40 .text.gatts_process_read_req 0000013e  00000000  00000000  000013a8  2**2
+ 40 .text.gatts_process_read_req 0000013e  00000000  00000000  000013ac  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 41 .text.gatt_sr_process_app_rsp 0000010e  00000000  00000000  000014e8  2**2
+ 41 .text.gatt_sr_process_app_rsp 0000010e  00000000  00000000  000014ec  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 42 .text.gatt_process_exec_write_req 00000229  00000000  00000000  000015f8  2**2
+ 42 .text.gatt_process_exec_write_req 00000229  00000000  00000000  000015fc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 43 .text.gatt_process_read_multi_req 00000202  00000000  00000000  00001824  2**2
+ 43 .text.gatt_process_read_multi_req 00000202  00000000  00000000  00001828  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 44 .text.gatts_process_primary_service_req 00000152  00000000  00000000  00001a28  2**2
+ 44 .text.gatts_process_primary_service_req 00000152  00000000  00000000  00001a2c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 45 .text.gatts_process_read_by_type_req 000001fa  00000000  00000000  00001b7c  2**2
+ 45 .text.gatts_process_read_by_type_req 000001fa  00000000  00000000  00001b80  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 46 .text.gatts_process_write_req 000001c8  00000000  00000000  00001d78  2**2
+ 46 .text.gatts_process_write_req 000001c8  00000000  00000000  00001d7c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 47 .text.gatt_attr_process_prepare_write 00000427  00000000  00000000  00001f40  2**2
+ 47 .text.gatt_attr_process_prepare_write 00000427  00000000  00000000  00001f44  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 48 .text.gatts_process_attribute_req 0000013c  00000000  00000000  00002368  2**2
+ 48 .text.gatts_process_attribute_req 0000013c  00000000  00000000  0000236c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 49 .text.gatts_process_value_conf 000000a6  00000000  00000000  000024a4  2**2
+ 49 .text.gatts_process_value_conf 000000ba  00000000  00000000  000024a8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 50 .text.gatt_server_handle_client_req 00000150  00000000  00000000  0000254c  2**2
+ 50 .text.gatt_server_handle_client_req 00000150  00000000  00000000  00002564  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 51 .rodata.__func__$9854 00000020  00000000  00000000  0000269c  2**2
+ 51 .rodata.__func__$9854 00000020  00000000  00000000  000026b4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 52 .rodata.__func__$9828 00000018  00000000  00000000  000026bc  2**2
+ 52 .rodata.__func__$9828 00000018  00000000  00000000  000026d4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 53 .rodata.__func__$9657 0000001c  00000000  00000000  000026d4  2**2
+ 53 .rodata.__func__$9657 0000001c  00000000  00000000  000026ec  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 54 .rodata.__func__$9607 00000014  00000000  00000000  000026f0  2**2
+ 54 .rodata.__func__$9607 00000014  00000000  00000000  00002708  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 55 .debug_frame  00000250  00000000  00000000  00002704  2**2
+ 55 .debug_frame  00000250  00000000  00000000  0000271c  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 56 .debug_info   0000411d  00000000  00000000  00002954  2**0
+ 56 .debug_info   00004174  00000000  00000000  0000296c  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 57 .debug_abbrev 00000424  00000000  00000000  00006a71  2**0
+ 57 .debug_abbrev 00000424  00000000  00000000  00006ae0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 58 .debug_loc    00002083  00000000  00000000  00006e95  2**0
+ 58 .debug_loc    0000209f  00000000  00000000  00006f04  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 59 .debug_aranges 000000d8  00000000  00000000  00008f18  2**0
+ 59 .debug_aranges 000000d8  00000000  00000000  00008fa3  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 60 .debug_ranges 00000110  00000000  00000000  00008ff0  2**0
+ 60 .debug_ranges 00000110  00000000  00000000  0000907b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 61 .debug_line   000016d7  00000000  00000000  00009100  2**0
+ 61 .debug_line   000016e3  00000000  00000000  0000918b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 62 .debug_str    00001738  00000000  00000000  0000a7d7  2**0
+ 62 .debug_str    00001738  00000000  00000000  0000a86e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 63 .comment      0000003b  00000000  00000000  0000bf0f  2**0
+ 63 .comment      0000003b  00000000  00000000  0000bfa6  2**0
                   CONTENTS, READONLY
- 64 .xtensa.info  00000038  00000000  00000000  0000bf4a  2**0
+ 64 .xtensa.info  00000038  00000000  00000000  0000bfe1  2**0
                   CONTENTS, READONLY
- 65 .xt.lit       000000b0  00000000  00000000  0000bf82  2**0
+ 65 .xt.lit       000000b0  00000000  00000000  0000c019  2**0
                   CONTENTS, RELOC, READONLY
- 66 .xt.prop      000014ac  00000000  00000000  0000c032  2**0
+ 66 .xt.prop      000014a0  00000000  00000000  0000c0c9  2**0
                   CONTENTS, RELOC, READONLY
 
 att_protocol.o:     file format elf32-xtensa-le
