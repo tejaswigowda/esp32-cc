@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := wifiBLEpos
+PROJECT_NAME := test
 
 include $(IDF_PATH)/make/project.mk
 
