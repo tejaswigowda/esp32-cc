@@ -270,207 +270,6 @@ Idx Name          Size      VMA       LMA       File off  Algn
  25 .xt.prop      0000036c  00000000  00000000  00002411  2**0
                   CONTENTS, RELOC, READONLY
 
-nghttp2_rcbuf.o:     file format elf32-xtensa-le
-
-Sections:
-Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.nghttp2_rcbuf_new 00000004  00000000  00000000  00000034  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .literal.nghttp2_rcbuf_new2 00000008  00000000  00000000  00000038  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  2 .literal.nghttp2_rcbuf_del 00000004  00000000  00000000  00000040  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  3 .literal.nghttp2_rcbuf_decref 00000014  00000000  00000000  00000044  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  4 .text         00000000  00000000  00000000  00000058  2**0
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  5 .data         00000000  00000000  00000000  00000058  2**0
-                  CONTENTS, ALLOC, LOAD, DATA
-  6 .bss          00000000  00000000  00000000  00000058  2**0
-                  ALLOC
-  7 .text.nghttp2_rcbuf_new 00000036  00000000  00000000  00000058  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  8 .text.nghttp2_rcbuf_new2 00000031  00000000  00000000  00000090  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  9 .text.nghttp2_rcbuf_del 00000012  00000000  00000000  000000c4  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 10 .text.nghttp2_rcbuf_incref 0000000e  00000000  00000000  000000d8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 11 .rodata.str1.4 00000057  00000000  00000000  000000e8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
- 12 .text.nghttp2_rcbuf_decref 0000002e  00000000  00000000  00000140  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 13 .text.nghttp2_rcbuf_get_buf 0000000b  00000000  00000000  00000170  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 14 .rodata.__func__$4081 00000015  00000000  00000000  0000017c  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
- 15 .debug_frame  000000a0  00000000  00000000  00000194  2**2
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 16 .debug_info   000005ab  00000000  00000000  00000234  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 17 .debug_abbrev 000001ca  00000000  00000000  000007df  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 18 .debug_loc    0000013f  00000000  00000000  000009a9  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 19 .debug_aranges 00000048  00000000  00000000  00000ae8  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 20 .debug_ranges 00000038  00000000  00000000  00000b30  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 21 .debug_line   000002fb  00000000  00000000  00000b68  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 22 .debug_str    00000711  00000000  00000000  00000e63  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 23 .comment      0000003b  00000000  00000000  00001574  2**0
-                  CONTENTS, READONLY
- 24 .xtensa.info  00000038  00000000  00000000  000015af  2**0
-                  CONTENTS, READONLY
- 25 .xt.lit       00000020  00000000  00000000  000015e7  2**0
-                  CONTENTS, RELOC, READONLY
- 26 .xt.prop      00000168  00000000  00000000  00001607  2**0
-                  CONTENTS, RELOC, READONLY
-
-nghttp2_callbacks.o:     file format elf32-xtensa-le
-
-Sections:
-Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.nghttp2_session_callbacks_new 00000004  00000000  00000000  00000034  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .literal.nghttp2_session_callbacks_del 00000004  00000000  00000000  00000038  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  2 .text         00000000  00000000  00000000  0000003c  2**0
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  3 .data         00000000  00000000  00000000  0000003c  2**0
-                  CONTENTS, ALLOC, LOAD, DATA
-  4 .bss          00000000  00000000  00000000  0000003c  2**0
-                  ALLOC
-  5 .text.nghttp2_session_callbacks_new 0000001a  00000000  00000000  0000003c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  6 .text.nghttp2_session_callbacks_del 0000000e  00000000  00000000  00000058  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  7 .text.nghttp2_session_callbacks_set_send_callback 00000007  00000000  00000000  00000068  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  8 .text.nghttp2_session_callbacks_set_recv_callback 00000007  00000000  00000000  00000070  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  9 .text.nghttp2_session_callbacks_set_on_frame_recv_callback 00000007  00000000  00000000  00000078  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 10 .text.nghttp2_session_callbacks_set_on_invalid_frame_recv_callback 00000007  00000000  00000000  00000080  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 11 .text.nghttp2_session_callbacks_set_on_data_chunk_recv_callback 00000007  00000000  00000000  00000088  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 12 .text.nghttp2_session_callbacks_set_before_frame_send_callback 00000007  00000000  00000000  00000090  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 13 .text.nghttp2_session_callbacks_set_on_frame_send_callback 00000007  00000000  00000000  00000098  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 14 .text.nghttp2_session_callbacks_set_on_frame_not_send_callback 00000007  00000000  00000000  000000a0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 15 .text.nghttp2_session_callbacks_set_on_stream_close_callback 00000007  00000000  00000000  000000a8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 16 .text.nghttp2_session_callbacks_set_on_begin_headers_callback 00000007  00000000  00000000  000000b0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 17 .text.nghttp2_session_callbacks_set_on_header_callback 00000007  00000000  00000000  000000b8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 18 .text.nghttp2_session_callbacks_set_on_header_callback2 00000007  00000000  00000000  000000c0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 19 .text.nghttp2_session_callbacks_set_on_invalid_header_callback 00000007  00000000  00000000  000000c8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 20 .text.nghttp2_session_callbacks_set_on_invalid_header_callback2 00000007  00000000  00000000  000000d0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 21 .text.nghttp2_session_callbacks_set_select_padding_callback 00000007  00000000  00000000  000000d8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 22 .text.nghttp2_session_callbacks_set_data_source_read_length_callback 00000007  00000000  00000000  000000e0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 23 .text.nghttp2_session_callbacks_set_on_begin_frame_callback 00000008  00000000  00000000  000000e8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 24 .text.nghttp2_session_callbacks_set_send_data_callback 00000008  00000000  00000000  000000f0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 25 .text.nghttp2_session_callbacks_set_pack_extension_callback 00000008  00000000  00000000  000000f8  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 26 .text.nghttp2_session_callbacks_set_unpack_extension_callback 00000008  00000000  00000000  00000100  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 27 .text.nghttp2_session_callbacks_set_on_extension_chunk_recv_callback 00000008  00000000  00000000  00000108  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 28 .text.nghttp2_session_callbacks_set_error_callback 00000008  00000000  00000000  00000110  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 29 .debug_frame  00000250  00000000  00000000  00000118  2**2
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 30 .debug_info   0000108f  00000000  00000000  00000368  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 31 .debug_abbrev 000001b3  00000000  00000000  000013f7  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 32 .debug_loc    0000003a  00000000  00000000  000015aa  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_aranges 000000d8  00000000  00000000  000015e4  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 34 .debug_ranges 000000c8  00000000  00000000  000016bc  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 35 .debug_line   0000044e  00000000  00000000  00001784  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 36 .debug_str    000012aa  00000000  00000000  00001bd2  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 37 .comment      0000003b  00000000  00000000  00002e7c  2**0
-                  CONTENTS, READONLY
- 38 .xtensa.info  00000038  00000000  00000000  00002eb7  2**0
-                  CONTENTS, READONLY
- 39 .xt.lit       00000010  00000000  00000000  00002eef  2**0
-                  CONTENTS, RELOC, READONLY
- 40 .xt.prop      00000390  00000000  00000000  00002eff  2**0
-                  CONTENTS, RELOC, READONLY
-
-nghttp2_outbound_item.o:     file format elf32-xtensa-le
-
-Sections:
-Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.nghttp2_outbound_item_init 0000000c  00000000  00000000  00000034  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .literal.nghttp2_outbound_item_free 00000040  00000000  00000000  00000040  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  2 .text         00000000  00000000  00000000  00000080  2**0
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  3 .data         00000000  00000000  00000000  00000080  2**0
-                  CONTENTS, ALLOC, LOAD, DATA
-  4 .bss          00000000  00000000  00000000  00000080  2**0
-                  ALLOC
-  5 .text.nghttp2_outbound_item_init 00000024  00000000  00000000  00000080  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  6 .rodata.str1.4 00000053  00000000  00000000  000000a4  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
-  7 .text.nghttp2_outbound_item_free 000000af  00000000  00000000  000000f8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  8 .rodata.nghttp2_outbound_item_free 00000024  00000000  00000000  000001a8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
-  9 .text.nghttp2_outbound_queue_init 0000000d  00000000  00000000  000001cc  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 10 .text.nghttp2_outbound_queue_push 0000001c  00000000  00000000  000001dc  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 11 .text.nghttp2_outbound_queue_pop 00000020  00000000  00000000  000001f8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 12 .rodata.__func__$4684 0000001b  00000000  00000000  00000218  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
- 13 .debug_frame  00000088  00000000  00000000  00000234  2**2
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 14 .debug_info   00000ca5  00000000  00000000  000002bc  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 15 .debug_abbrev 0000020e  00000000  00000000  00000f61  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 16 .debug_loc    0000003b  00000000  00000000  0000116f  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 17 .debug_aranges 00000040  00000000  00000000  000011aa  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 18 .debug_ranges 00000030  00000000  00000000  000011ea  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 19 .debug_line   00000384  00000000  00000000  0000121a  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 20 .debug_str    00000963  00000000  00000000  0000159e  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 21 .comment      0000003b  00000000  00000000  00001f01  2**0
-                  CONTENTS, READONLY
- 22 .xtensa.info  00000038  00000000  00000000  00001f3c  2**0
-                  CONTENTS, READONLY
- 23 .xt.lit       00000010  00000000  00000000  00001f74  2**0
-                  CONTENTS, RELOC, READONLY
- 24 .xt.prop      00000240  00000000  00000000  00001f84  2**0
-                  CONTENTS, RELOC, READONLY
-
 nghttp2_session.o:     file format elf32-xtensa-le
 
 Sections:
@@ -1252,6 +1051,148 @@ Idx Name          Size      VMA       LMA       File off  Algn
 387 .xt.lit       00000490  00000000  00000000  0002b97e  2**0
                   CONTENTS, RELOC, READONLY
 388 .xt.prop      00007470  00000000  00000000  0002be0e  2**0
+                  CONTENTS, RELOC, READONLY
+
+nghttp2_callbacks.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nghttp2_session_callbacks_new 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.nghttp2_session_callbacks_del 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  0000003c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  0000003c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  0000003c  2**0
+                  ALLOC
+  5 .text.nghttp2_session_callbacks_new 0000001a  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text.nghttp2_session_callbacks_del 0000000e  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.nghttp2_session_callbacks_set_send_callback 00000007  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .text.nghttp2_session_callbacks_set_recv_callback 00000007  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .text.nghttp2_session_callbacks_set_on_frame_recv_callback 00000007  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .text.nghttp2_session_callbacks_set_on_invalid_frame_recv_callback 00000007  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .text.nghttp2_session_callbacks_set_on_data_chunk_recv_callback 00000007  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .text.nghttp2_session_callbacks_set_before_frame_send_callback 00000007  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .text.nghttp2_session_callbacks_set_on_frame_send_callback 00000007  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .text.nghttp2_session_callbacks_set_on_frame_not_send_callback 00000007  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .text.nghttp2_session_callbacks_set_on_stream_close_callback 00000007  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .text.nghttp2_session_callbacks_set_on_begin_headers_callback 00000007  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .text.nghttp2_session_callbacks_set_on_header_callback 00000007  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .text.nghttp2_session_callbacks_set_on_header_callback2 00000007  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .text.nghttp2_session_callbacks_set_on_invalid_header_callback 00000007  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .text.nghttp2_session_callbacks_set_on_invalid_header_callback2 00000007  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .text.nghttp2_session_callbacks_set_select_padding_callback 00000007  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .text.nghttp2_session_callbacks_set_data_source_read_length_callback 00000007  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 23 .text.nghttp2_session_callbacks_set_on_begin_frame_callback 00000008  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 24 .text.nghttp2_session_callbacks_set_send_data_callback 00000008  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .text.nghttp2_session_callbacks_set_pack_extension_callback 00000008  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .text.nghttp2_session_callbacks_set_unpack_extension_callback 00000008  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .text.nghttp2_session_callbacks_set_on_extension_chunk_recv_callback 00000008  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .text.nghttp2_session_callbacks_set_error_callback 00000008  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 29 .debug_frame  00000250  00000000  00000000  00000118  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_info   0000108f  00000000  00000000  00000368  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_abbrev 000001b3  00000000  00000000  000013f7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .debug_loc    0000003a  00000000  00000000  000015aa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_aranges 000000d8  00000000  00000000  000015e4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_ranges 000000c8  00000000  00000000  000016bc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_line   0000044e  00000000  00000000  00001784  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_str    000012aa  00000000  00000000  00001bd2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 37 .comment      0000003b  00000000  00000000  00002e7c  2**0
+                  CONTENTS, READONLY
+ 38 .xtensa.info  00000038  00000000  00000000  00002eb7  2**0
+                  CONTENTS, READONLY
+ 39 .xt.lit       00000010  00000000  00000000  00002eef  2**0
+                  CONTENTS, RELOC, READONLY
+ 40 .xt.prop      00000390  00000000  00000000  00002eff  2**0
+                  CONTENTS, RELOC, READONLY
+
+nghttp2_outbound_item.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nghttp2_outbound_item_init 0000000c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.nghttp2_outbound_item_free 00000040  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000080  2**0
+                  ALLOC
+  5 .text.nghttp2_outbound_item_init 00000024  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .rodata.str1.4 00000053  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.nghttp2_outbound_item_free 000000af  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .rodata.nghttp2_outbound_item_free 00000024  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+  9 .text.nghttp2_outbound_queue_init 0000000d  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .text.nghttp2_outbound_queue_push 0000001c  00000000  00000000  000001dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.nghttp2_outbound_queue_pop 00000020  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.__func__$4684 0000001b  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .debug_frame  00000088  00000000  00000000  00000234  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_info   00000ca5  00000000  00000000  000002bc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_abbrev 0000020e  00000000  00000000  00000f61  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    0000003b  00000000  00000000  0000116f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_aranges 00000040  00000000  00000000  000011aa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_ranges 00000030  00000000  00000000  000011ea  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_line   00000384  00000000  00000000  0000121a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_str    00000963  00000000  00000000  0000159e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .comment      0000003b  00000000  00000000  00001f01  2**0
+                  CONTENTS, READONLY
+ 22 .xtensa.info  00000038  00000000  00000000  00001f3c  2**0
+                  CONTENTS, READONLY
+ 23 .xt.lit       00000010  00000000  00000000  00001f74  2**0
+                  CONTENTS, RELOC, READONLY
+ 24 .xt.prop      00000240  00000000  00000000  00001f84  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_stream.o:     file format elf32-xtensa-le
@@ -2116,6 +2057,65 @@ Idx Name          Size      VMA       LMA       File off  Algn
  19 .xt.prop      000000cc  00000000  00000000  000008ce  2**0
                   CONTENTS, RELOC, READONLY
 
+nghttp2_rcbuf.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.nghttp2_rcbuf_new 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.nghttp2_rcbuf_new2 00000008  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.nghttp2_rcbuf_del 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.nghttp2_rcbuf_decref 00000014  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000058  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000058  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000058  2**0
+                  ALLOC
+  7 .text.nghttp2_rcbuf_new 00000036  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.nghttp2_rcbuf_new2 00000031  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.nghttp2_rcbuf_del 00000012  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.nghttp2_rcbuf_incref 0000000e  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.str1.4 00000057  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.nghttp2_rcbuf_decref 0000002e  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.nghttp2_rcbuf_get_buf 0000000b  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .rodata.__func__$4081 00000015  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .debug_frame  000000a0  00000000  00000000  00000194  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_info   000005ab  00000000  00000000  00000234  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_abbrev 000001ca  00000000  00000000  000007df  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_loc    0000013f  00000000  00000000  000009a9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_aranges 00000048  00000000  00000000  00000ae8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_ranges 00000038  00000000  00000000  00000b30  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_line   000002fb  00000000  00000000  00000b68  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_str    00000711  00000000  00000000  00000e63  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .comment      0000003b  00000000  00000000  00001574  2**0
+                  CONTENTS, READONLY
+ 24 .xtensa.info  00000038  00000000  00000000  000015af  2**0
+                  CONTENTS, READONLY
+ 25 .xt.lit       00000020  00000000  00000000  000015e7  2**0
+                  CONTENTS, RELOC, READONLY
+ 26 .xt.prop      00000168  00000000  00000000  00001607  2**0
+                  CONTENTS, RELOC, READONLY
+
 nghttp2_helper.o:     file format elf32-xtensa-le
 
 Sections:
@@ -2568,129 +2568,6 @@ Idx Name          Size      VMA       LMA       File off  Algn
  13 .xt.prop      00000024  00000000  00000000  000005f9  2**0
                   CONTENTS, RELOC, READONLY
 
-nghttp2_submit.o:     file format elf32-xtensa-le
-
-Sections:
-Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.submit_headers_shared 0000001c  00000000  00000000  00000034  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .literal.submit_headers_shared_nva 00000010  00000000  00000000  00000050  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  2 .literal.detect_self_dependency 00000010  00000000  00000000  00000060  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  3 .literal.nghttp2_submit_trailer 00000004  00000000  00000000  00000070  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  4 .literal.nghttp2_submit_headers 0000000c  00000000  00000000  00000074  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  5 .literal.nghttp2_submit_ping 00000004  00000000  00000000  00000080  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  6 .literal.nghttp2_submit_priority 0000001c  00000000  00000000  00000084  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  7 .literal.nghttp2_submit_rst_stream 00000004  00000000  00000000  000000a0  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  8 .literal.nghttp2_submit_goaway 00000004  00000000  00000000  000000a4  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  9 .literal.nghttp2_submit_shutdown_notice 00000008  00000000  00000000  000000a8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 10 .literal.nghttp2_submit_settings 00000004  00000000  00000000  000000b0  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 11 .literal.nghttp2_submit_push_promise 00000024  00000000  00000000  000000b4  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 12 .literal.nghttp2_submit_window_update 00000010  00000000  00000000  000000d8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 13 .literal.nghttp2_session_set_local_window_size 00000018  00000000  00000000  000000e8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 14 .literal.nghttp2_submit_altsvc 0000002c  00000000  00000000  00000100  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 15 .literal.nghttp2_submit_request 00000010  00000000  00000000  0000012c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 16 .literal.nghttp2_submit_response 00000008  00000000  00000000  0000013c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 17 .literal.nghttp2_submit_data 00000018  00000000  00000000  00000144  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 18 .literal.nghttp2_pack_settings_payload 00000008  00000000  00000000  0000015c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 19 .literal.nghttp2_submit_extension 00000018  00000000  00000000  00000164  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 20 .text         00000000  00000000  00000000  0000017c  2**0
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
- 21 .data         00000000  00000000  00000000  0000017c  2**0
-                  CONTENTS, ALLOC, LOAD, DATA
- 22 .bss          00000000  00000000  00000000  0000017c  2**0
-                  ALLOC
- 23 .text.set_request_flags 00000024  00000000  00000000  0000017c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 24 .text.set_response_flags 00000015  00000000  00000000  000001a0  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 25 .text.submit_headers_shared 000000ce  00000000  00000000  000001b8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 26 .text.submit_headers_shared_nva 00000068  00000000  00000000  00000288  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 27 .rodata.str1.4 00000054  00000000  00000000  000002f0  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
- 28 .text.detect_self_dependency 0000003e  00000000  00000000  00000344  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 29 .text.nghttp2_submit_trailer 00000025  00000000  00000000  00000384  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 30 .text.nghttp2_submit_headers 0000006e  00000000  00000000  000003ac  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 31 .text.nghttp2_submit_ping 00000014  00000000  00000000  0000041c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 32 .text.nghttp2_submit_priority 0000008d  00000000  00000000  00000430  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 33 .text.nghttp2_submit_rst_stream 0000001a  00000000  00000000  000004c0  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 34 .text.nghttp2_submit_goaway 00000026  00000000  00000000  000004dc  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 35 .text.nghttp2_submit_shutdown_notice 00000035  00000000  00000000  00000504  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 36 .text.nghttp2_submit_settings 00000015  00000000  00000000  0000053c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 37 .text.nghttp2_submit_push_promise 000000d5  00000000  00000000  00000554  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 38 .text.nghttp2_submit_window_update 0000009d  00000000  00000000  0000062c  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 39 .text.nghttp2_session_set_local_window_size 000000c6  00000000  00000000  000006cc  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 40 .text.nghttp2_submit_altsvc 000000f2  00000000  00000000  00000794  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 41 .text.nghttp2_submit_request 00000059  00000000  00000000  00000888  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 42 .text.nghttp2_submit_response 0000003a  00000000  00000000  000008e4  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 43 .text.nghttp2_submit_data 00000072  00000000  00000000  00000920  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 44 .text.nghttp2_pack_settings_payload 00000032  00000000  00000000  00000994  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 45 .text.nghttp2_submit_extension 0000007d  00000000  00000000  000009c8  2**2
-                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 46 .rodata.__func__$5220 00000017  00000000  00000000  00000a48  2**2
-                  CONTENTS, ALLOC, LOAD, READONLY, DATA
- 47 .debug_frame  00000220  00000000  00000000  00000a60  2**2
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 48 .debug_info   000033c4  00000000  00000000  00000c80  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 49 .debug_abbrev 0000037e  00000000  00000000  00004044  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 50 .debug_loc    00001170  00000000  00000000  000043c2  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 51 .debug_aranges 000000c8  00000000  00000000  00005532  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 52 .debug_ranges 000000b8  00000000  00000000  000055fa  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 53 .debug_line   00000b73  00000000  00000000  000056b2  2**0
-                  CONTENTS, RELOC, READONLY, DEBUGGING
- 54 .debug_str    000026eb  00000000  00000000  00006225  2**0
-                  CONTENTS, READONLY, DEBUGGING
- 55 .comment      0000003b  00000000  00000000  00008910  2**0
-                  CONTENTS, READONLY
- 56 .xtensa.info  00000038  00000000  00000000  0000894b  2**0
-                  CONTENTS, READONLY
- 57 .xt.lit       000000a0  00000000  00000000  00008983  2**0
-                  CONTENTS, RELOC, READONLY
- 58 .xt.prop      00000b34  00000000  00000000  00008a23  2**0
-                  CONTENTS, RELOC, READONLY
-
 nghttp2_pq.o:     file format elf32-xtensa-le
 
 Sections:
@@ -2835,6 +2712,129 @@ Idx Name          Size      VMA       LMA       File off  Algn
  29 .xt.lit       00000028  00000000  00000000  00001424  2**0
                   CONTENTS, RELOC, READONLY
  30 .xt.prop      000001e0  00000000  00000000  0000144c  2**0
+                  CONTENTS, RELOC, READONLY
+
+nghttp2_submit.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.submit_headers_shared 0000001c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.submit_headers_shared_nva 00000010  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.detect_self_dependency 00000010  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.nghttp2_submit_trailer 00000004  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.nghttp2_submit_headers 0000000c  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.nghttp2_submit_ping 00000004  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.nghttp2_submit_priority 0000001c  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.nghttp2_submit_rst_stream 00000004  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.nghttp2_submit_goaway 00000004  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.nghttp2_submit_shutdown_notice 00000008  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.nghttp2_submit_settings 00000004  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.nghttp2_submit_push_promise 00000024  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.nghttp2_submit_window_update 00000010  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.nghttp2_session_set_local_window_size 00000018  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.nghttp2_submit_altsvc 0000002c  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.nghttp2_submit_request 00000010  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.nghttp2_submit_response 00000008  00000000  00000000  0000013c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.nghttp2_submit_data 00000018  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.nghttp2_pack_settings_payload 00000008  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.nghttp2_submit_extension 00000018  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text         00000000  00000000  00000000  0000017c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .data         00000000  00000000  00000000  0000017c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 22 .bss          00000000  00000000  00000000  0000017c  2**0
+                  ALLOC
+ 23 .text.set_request_flags 00000024  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.set_response_flags 00000015  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.submit_headers_shared 000000ce  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.submit_headers_shared_nva 00000068  00000000  00000000  00000288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .rodata.str1.4 00000054  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .text.detect_self_dependency 0000003e  00000000  00000000  00000344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.nghttp2_submit_trailer 00000025  00000000  00000000  00000384  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.nghttp2_submit_headers 0000006e  00000000  00000000  000003ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.nghttp2_submit_ping 00000014  00000000  00000000  0000041c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.nghttp2_submit_priority 0000008d  00000000  00000000  00000430  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.nghttp2_submit_rst_stream 0000001a  00000000  00000000  000004c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.nghttp2_submit_goaway 00000026  00000000  00000000  000004dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.nghttp2_submit_shutdown_notice 00000035  00000000  00000000  00000504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.nghttp2_submit_settings 00000015  00000000  00000000  0000053c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.nghttp2_submit_push_promise 000000d5  00000000  00000000  00000554  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.nghttp2_submit_window_update 0000009d  00000000  00000000  0000062c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.nghttp2_session_set_local_window_size 000000c6  00000000  00000000  000006cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.nghttp2_submit_altsvc 000000f2  00000000  00000000  00000794  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.nghttp2_submit_request 00000059  00000000  00000000  00000888  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.nghttp2_submit_response 0000003a  00000000  00000000  000008e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.nghttp2_submit_data 00000072  00000000  00000000  00000920  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.nghttp2_pack_settings_payload 00000032  00000000  00000000  00000994  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.nghttp2_submit_extension 0000007d  00000000  00000000  000009c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .rodata.__func__$5220 00000017  00000000  00000000  00000a48  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .debug_frame  00000220  00000000  00000000  00000a60  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 48 .debug_info   000033c4  00000000  00000000  00000c80  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 49 .debug_abbrev 0000037e  00000000  00000000  00004044  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 50 .debug_loc    00001170  00000000  00000000  000043c2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 51 .debug_aranges 000000c8  00000000  00000000  00005532  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_ranges 000000b8  00000000  00000000  000055fa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_line   00000b73  00000000  00000000  000056b2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 54 .debug_str    000026eb  00000000  00000000  00006225  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 55 .comment      0000003b  00000000  00000000  00008910  2**0
+                  CONTENTS, READONLY
+ 56 .xtensa.info  00000038  00000000  00000000  0000894b  2**0
+                  CONTENTS, READONLY
+ 57 .xt.lit       000000a0  00000000  00000000  00008983  2**0
+                  CONTENTS, RELOC, READONLY
+ 58 .xt.prop      00000b34  00000000  00000000  00008a23  2**0
                   CONTENTS, RELOC, READONLY
 
 nghttp2_map.o:     file format elf32-xtensa-le
