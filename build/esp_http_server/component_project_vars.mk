@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/esp_http_server/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/esp_http_server/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/esp_http_server -lesp_http_server
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

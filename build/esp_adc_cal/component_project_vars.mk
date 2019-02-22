@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/esp_adc_cal/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/esp_adc_cal/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/esp_adc_cal -lesp_adc_cal
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

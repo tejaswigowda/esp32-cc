@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/esp_https_ota/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/esp_https_ota/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/esp_https_ota -lesp_https_ota
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/nvs_flash/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/nvs_flash/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/nvs_flash -lnvs_flash
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

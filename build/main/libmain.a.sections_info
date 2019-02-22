@@ -124,41 +124,41 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  59 .debug_ranges 000000b0  00000000  00000000  0002483b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 60 .debug_line   000014d9  00000000  00000000  000248eb  2**0
+ 60 .debug_line   00001538  00000000  00000000  000248eb  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 61 .debug_str    00047c2a  00000000  00000000  00025dc4  2**0
+ 61 .debug_str    00047c2a  00000000  00000000  00025e23  2**0
                   CONTENTS, READONLY, DEBUGGING
- 62 .comment      0000003b  00000000  00000000  0006d9ee  2**0
+ 62 .comment      0000003b  00000000  00000000  0006da4d  2**0
                   CONTENTS, READONLY
- 63 .xtensa.info  00000038  00000000  00000000  0006da29  2**0
+ 63 .xtensa.info  00000038  00000000  00000000  0006da88  2**0
                   CONTENTS, READONLY
- 64 .xt.lit._ZN27MyAdvertisedDeviceCallbacksD5Ev 00000008  00000000  00000000  0006da61  2**0
+ 64 .xt.lit._ZN27MyAdvertisedDeviceCallbacksD5Ev 00000008  00000000  00000000  0006dac0  2**0
                   CONTENTS, RELOC, READONLY
- 65 .xt.lit._ZN27MyAdvertisedDeviceCallbacks8onResultE19BLEAdvertisedDevice 00000008  00000000  00000000  0006da69  2**0
+ 65 .xt.lit._ZN27MyAdvertisedDeviceCallbacks8onResultE19BLEAdvertisedDevice 00000008  00000000  00000000  0006dac8  2**0
                   CONTENTS, RELOC, READONLY
- 66 .xt.lit._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_P19BLEAdvertisedDeviceESt10_Select1stISA_ESt4lessIS5_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E 00000008  00000000  00000000  0006da71  2**0
+ 66 .xt.lit._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_P19BLEAdvertisedDeviceESt10_Select1stISA_ESt4lessIS5_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E 00000008  00000000  00000000  0006dad0  2**0
                   CONTENTS, RELOC, READONLY
- 67 .xt.lit._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag 00000008  00000000  00000000  0006da79  2**0
+ 67 .xt.lit._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag 00000008  00000000  00000000  0006dad8  2**0
                   CONTENTS, RELOC, READONLY
- 68 .xt.lit       00000038  00000000  00000000  0006da81  2**0
+ 68 .xt.lit       00000038  00000000  00000000  0006dae0  2**0
                   CONTENTS, RELOC, READONLY
- 69 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD5Ev 0000000c  00000000  00000000  0006dab9  2**0
+ 69 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD5Ev 0000000c  00000000  00000000  0006db18  2**0
                   CONTENTS, RELOC, READONLY
- 70 .xt.prop._ZN27MyAdvertisedDeviceCallbacks8onResultE19BLEAdvertisedDevice 00000078  00000000  00000000  0006dac5  2**0
+ 70 .xt.prop._ZN27MyAdvertisedDeviceCallbacks8onResultE19BLEAdvertisedDevice 00000078  00000000  00000000  0006db24  2**0
                   CONTENTS, RELOC, READONLY
- 71 .xt.prop._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_P19BLEAdvertisedDeviceESt10_Select1stISA_ESt4lessIS5_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E 00000048  00000000  00000000  0006db3d  2**0
+ 71 .xt.prop._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_P19BLEAdvertisedDeviceESt10_Select1stISA_ESt4lessIS5_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E 00000048  00000000  00000000  0006db9c  2**0
                   CONTENTS, RELOC, READONLY
- 72 .xt.prop._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag 00000078  00000000  00000000  0006db85  2**0
+ 72 .xt.prop._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag 00000078  00000000  00000000  0006dbe4  2**0
                   CONTENTS, RELOC, READONLY
- 73 .xt.prop      00000474  00000000  00000000  0006dbfd  2**0
+ 73 .xt.prop      00000474  00000000  00000000  0006dc5c  2**0
                   CONTENTS, RELOC, READONLY
- 74 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD2Ev 00000024  00000000  00000000  0006e071  2**0
+ 74 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD2Ev 00000024  00000000  00000000  0006e0d0  2**0
                   CONTENTS, RELOC, READONLY
- 75 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD0Ev 00000024  00000000  00000000  0006e095  2**0
+ 75 .xt.prop._ZN27MyAdvertisedDeviceCallbacksD0Ev 00000024  00000000  00000000  0006e0f4  2**0
                   CONTENTS, RELOC, READONLY
- 76 .xt.prop._ZTV9Printable 0000000c  00000000  00000000  0006e0b9  2**0
+ 76 .xt.prop._ZTV9Printable 0000000c  00000000  00000000  0006e118  2**0
                   CONTENTS, RELOC, READONLY
- 77 .xt.prop._ZTV28BLEAdvertisedDeviceCallbacks 0000000c  00000000  00000000  0006e0c5  2**0
+ 77 .xt.prop._ZTV28BLEAdvertisedDeviceCallbacks 0000000c  00000000  00000000  0006e124  2**0
                   CONTENTS, RELOC, READONLY
- 78 .xt.prop._ZTV27MyAdvertisedDeviceCallbacks 0000000c  00000000  00000000  0006e0d1  2**0
+ 78 .xt.prop._ZTV27MyAdvertisedDeviceCallbacks 0000000c  00000000  00000000  0006e130  2**0
                   CONTENTS, RELOC, READONLY

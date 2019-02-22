@@ -40,9 +40,9 @@ Archive member included to satisfy reference by file (symbol)
                               /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o) (rtc_clk_cal_ratio)
 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
                               /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o) (rtc_clk_32k_enable)
-/home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+/home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                               /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
-/home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+/home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                               /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_wdt.o) (__udivdi3)
 
 Discarded input sections
@@ -370,14 +370,14 @@ Discarded input sections
                 0x0000000000000000       0x17 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xt.lit        0x0000000000000000      0x120 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xt.prop       0x0000000000000000      0xcc0 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .data          0x0000000000000000        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .bss           0x0000000000000000        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .xt.lit        0x0000000000000000        0x8 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .xt.prop       0x0000000000000000       0x30 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .data          0x0000000000000000        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
- .bss           0x0000000000000000        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
- .eh_frame      0x0000000000000000       0x28 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
- .xt.prop       0x0000000000000000      0x264 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .xt.lit        0x0000000000000000        0x8 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .xt.prop       0x0000000000000000       0x30 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x28 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .xt.prop       0x0000000000000000      0x264 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 Memory Configuration
 
@@ -397,9 +397,9 @@ LOAD /home/ubuntu/esp32-cc/build/bootloader/spi_flash/libspi_flash.a
 LOAD /home/ubuntu/esp32-cc/build/bootloader/micro-ecc/libmicro-ecc.a
 LOAD /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a
 LOAD /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a
-LOAD /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
-LOAD /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
-LOAD /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcov.a
+LOAD /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
+LOAD /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
+LOAD /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcov.a
 END GROUP
 
 .iram_loader.text
@@ -415,7 +415,7 @@ END GROUP
                 0x0000000040078040        0x4 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(cpu_util.o)
  .literal.esp_log_early_timestamp
                 0x0000000040078044        0x8 /home/ubuntu/esp32-cc/build/bootloader/log/liblog.a(log.o)
- .literal       0x000000004007804c        0x8 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .literal       0x000000004007804c        0x8 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .literal.bootloader_common_ota_select_crc
                 0x0000000040078054        0x4 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .literal.bootloader_common_ota_select_valid
@@ -611,11 +611,11 @@ END GROUP
  *fill*         0x0000000040078657        0x0 
  *libgcc.a:(.literal .text .literal.* .text.*)
  *fill*         0x0000000040078657        0x1 
- .text          0x0000000040078658       0x26 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .text          0x0000000040078658       0x26 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                 0x0000000040078658                __bswapsi2
  *fill*         0x000000004007867e        0x0 
  *fill*         0x000000004007867e        0x2 
- .text          0x0000000040078680      0x281 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .text          0x0000000040078680      0x281 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                 0x0000000040078680                __udivdi3
  *libbootloader_support.a:bootloader_common.*(.literal .text .literal.* .text.*)
  *fill*         0x0000000040078901        0x3 
@@ -1344,7 +1344,7 @@ END GROUP
  *(.jcr)
                 0x000000003fff001c                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff001c     0x1860
+.dram0.rodata   0x000000003fff001c     0x1874
                 0x000000003fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x000000003fff001c       0x14 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
@@ -1354,89 +1354,88 @@ END GROUP
                 0x000000003fff0038       0x3b /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff0073        0x1 
  .rodata.str1.4
-                0x000000003fff0074      0x3e6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0x3ee (size before relaxing)
- *fill*         0x000000003fff045a        0x2 
+                0x000000003fff0074      0x3ea /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0x3f2 (size before relaxing)
+ *fill*         0x000000003fff045e        0x2 
  .rodata.__func__$4476
-                0x000000003fff045c       0x10 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003fff0460       0x10 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.str1.4
-                0x000000003fff046c      0x5f5 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003fff0470      0x5f5 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x5fd (size before relaxing)
- *fill*         0x000000003fff0a61        0x3 
+ *fill*         0x000000003fff0a65        0x3 
  .rodata.str1.4
-                0x000000003fff0a64      0x163 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- *fill*         0x000000003fff0bc7        0x1 
+                0x000000003fff0a68      0x163 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x000000003fff0bcb        0x1 
  .rodata.str1.4
-                0x000000003fff0bc8      0x4d6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0bcc      0x4d6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x516 (size before relaxing)
- *fill*         0x000000003fff109e        0x2 
+ *fill*         0x000000003fff10a2        0x2 
  .rodata.str1.4
-                0x000000003fff10a0       0xc8 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff10a4       0xd0 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$3889
-                0x000000003fff1168       0x40 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff1174       0x40 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$3885
-                0x000000003fff11a8       0x19 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff11c1        0x3 
+                0x000000003fff11b4       0x19 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff11cd        0x3 
  .rodata.__func__$3865
-                0x000000003fff11c4       0x17 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff11db        0x1 
+                0x000000003fff11d0       0x17 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff11e7        0x1 
  .rodata.str1.4
-                0x000000003fff11dc       0x5f /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff123b        0x1 
+                0x000000003fff11e8       0x64 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .rodata.__func__$2290
-                0x000000003fff123c       0x17 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff1253        0x1 
+                0x000000003fff124c       0x17 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff1263        0x1 
  .rodata.str1.4
-                0x000000003fff1254      0x28e /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003fff14e2        0x2 
+                0x000000003fff1264      0x28e /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003fff14f2        0x2 
  .rodata.str1.4
-                0x000000003fff14e4      0x1cb /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- *fill*         0x000000003fff16af        0x1 
+                0x000000003fff14f4      0x1cb /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ *fill*         0x000000003fff16bf        0x1 
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff16b0       0x64 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x000000003fff16c0       0x64 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .rodata.str1.4
-                0x000000003fff1714       0xa9 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000003fff17bd        0x3 
+                0x000000003fff1724       0xad /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003fff17d1        0x3 
  .rodata.__func__$1848
-                0x000000003fff17c0       0x15 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000003fff17d5        0x3 
+                0x000000003fff17d4       0x15 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003fff17e9        0x3 
  .rodata.str1.4
-                0x000000003fff17d8       0xa4 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff17ec       0xa4 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xa1 (size before relaxing)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003fff187c                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff1890                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff187c                . = ((. + 0x3) & 0xfffffffffffffffc)
-                0x000000003fff187c                __init_array_start = ABSOLUTE (.)
+                0x000000003fff1890                . = ((. + 0x3) & 0xfffffffffffffffc)
+                0x000000003fff1890                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x000000003fff187c                __init_array_end = ABSOLUTE (.)
+                0x000000003fff1890                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x000000003fff187c                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003fff1890                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff187c                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff1890                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff187c                _rodata_end = ABSOLUTE (.)
-                0x000000003fff187c                _lit4_start = ABSOLUTE (.)
+                0x000000003fff1890                _rodata_end = ABSOLUTE (.)
+                0x000000003fff1890                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff187c                _lit4_end = ABSOLUTE (.)
-                0x000000003fff187c                . = ALIGN (0x4)
-                0x000000003fff187c                _heap_start = ABSOLUTE (.)
+                0x000000003fff1890                _lit4_end = ABSOLUTE (.)
+                0x000000003fff1890                . = ALIGN (0x4)
+                0x000000003fff1890                _heap_start = ABSOLUTE (.)
                 [!provide]                        PROVIDE (Add2SelfBigHex256, 0x40015b7c)
                 [!provide]                        PROVIDE (AddBigHex256, 0x40015b28)
                 [!provide]                        PROVIDE (AddBigHexModP256, 0x40015c98)
@@ -3172,8 +3171,8 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_frame   0x0000000000000ca0       0x40 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .debug_frame   0x0000000000000ce0       0xb8 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_frame   0x0000000000000d98      0x370 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x0000000000001108       0x28 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_frame   0x0000000000001130       0x28 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000001108       0x28 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_frame   0x0000000000001130       0x28 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_info     0x0000000000000000     0xdf30
  .debug_info    0x0000000000000000      0x337 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3196,8 +3195,8 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_info    0x000000000000beba       0x95 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .debug_info    0x000000000000bf4f      0x4d8 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_info    0x000000000000c427     0x1474 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x000000000000d89b       0xcd /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x000000000000d968      0x5c8 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_info    0x000000000000d89b       0xcd /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x000000000000d968      0x5c8 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x0000000000000000     0x29db
  .debug_abbrev  0x0000000000000000      0x15a /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3220,8 +3219,8 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_abbrev  0x00000000000022c9       0x5b /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .debug_abbrev  0x0000000000002324      0x1ba /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_abbrev  0x00000000000024de      0x33e /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x000000000000281c       0x60 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_abbrev  0x000000000000287c      0x15f /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000000000000281c       0x60 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x000000000000287c      0x15f /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_loc      0x0000000000000000     0x5ec3
  .debug_loc     0x0000000000000000       0x84 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3243,8 +3242,8 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_loc     0x00000000000044cd      0x1d6 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .debug_loc     0x00000000000046a3      0x227 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_loc     0x00000000000048ca      0xbf0 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x00000000000054ba       0x21 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00000000000054db      0x9e8 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000000000054ba       0x21 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x00000000000054db      0x9e8 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x768
  .debug_aranges
@@ -3288,9 +3287,9 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_aranges
                 0x00000000000005f0      0x138 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x0000000000000728       0x20 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x0000000000000728       0x20 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_aranges
-                0x0000000000000748       0x20 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x0000000000000748       0x20 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_ranges   0x0000000000000000      0x798
  .debug_ranges  0x0000000000000000       0x20 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3312,76 +3311,76 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_ranges  0x00000000000005a0       0x18 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .debug_ranges  0x00000000000005b8       0x40 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_ranges  0x00000000000005f8      0x140 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x0000000000000738       0x60 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000738       0x60 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x73e9
- .debug_line    0x0000000000000000      0x2f7 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x00000000000002f7      0x9cb /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x0000000000000cc2      0xa30 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x00000000000016f2      0x765 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x0000000000001e57      0x1db /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000000000002032      0x336 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000002368      0xb37 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000002e9f      0x487 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x0000000000003326      0x39d /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x00000000000036c3      0x64a /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x0000000000003d0d      0x537 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x0000000000004244      0x4d4 /home/ubuntu/esp32-cc/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x0000000000004718      0xac6 /home/ubuntu/esp32-cc/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x00000000000051de      0x1a8 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_line    0x0000000000005386      0x442 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_line    0x00000000000057c8      0x3ca /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x0000000000005b92      0x3b9 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_line    0x0000000000005f4b       0xfa /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_line    0x0000000000006045      0x41c /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x0000000000006461      0xd71 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x00000000000071d2       0x89 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x000000000000725b      0x18e /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_line     0x0000000000000000     0x7664
+ .debug_line    0x0000000000000000      0x31a /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x000000000000031a      0x9fd /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x0000000000000d17      0xa5d /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x0000000000001774      0x792 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x0000000000001f06      0x1f4 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x00000000000020fa      0x354 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x000000000000244e      0xb69 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000002fb7      0x4aa /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x0000000000003461      0x3b6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x0000000000003817      0x672 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000003e89      0x55a /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x00000000000043e3      0x4f2 /home/ubuntu/esp32-cc/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x00000000000048d5      0xada /home/ubuntu/esp32-cc/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x00000000000053af      0x1b7 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_line    0x0000000000005566      0x460 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_line    0x00000000000059c6      0x3de /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000005da4      0x3d7 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_line    0x000000000000617b      0x109 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_line    0x0000000000006284      0x43a /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x00000000000066be      0xd8f /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x000000000000744d       0x89 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x00000000000074d6      0x18e /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x4ba9
- .debug_str     0x0000000000000000      0x2f6 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x35a (size before relaxing)
- .debug_str     0x00000000000002f6      0xad6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0xcce (size before relaxing)
- .debug_str     0x0000000000000dcc      0x4cb /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0x99a (size before relaxing)
- .debug_str     0x0000000000001297      0x403 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                        0x927 (size before relaxing)
- .debug_str     0x000000000000169a      0x237 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                        0x392 (size before relaxing)
- .debug_str     0x00000000000018d1       0xae /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x3b8 (size before relaxing)
- .debug_str     0x000000000000197f      0x2f6 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0xa25 (size before relaxing)
- .debug_str     0x0000000000001c75      0x10a /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                                        0x34d (size before relaxing)
- .debug_str     0x0000000000001d7f       0x70 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                        0x242 (size before relaxing)
- .debug_str     0x0000000000001def      0x212 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x5e6 (size before relaxing)
- .debug_str     0x0000000000002001     0x187f /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
-                                       0x1bad (size before relaxing)
- .debug_str     0x0000000000003880      0x181 /home/ubuntu/esp32-cc/build/bootloader/log/liblog.a(log.o)
-                                        0x33d (size before relaxing)
- .debug_str     0x0000000000003a01      0x367 /home/ubuntu/esp32-cc/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                                        0x74d (size before relaxing)
- .debug_str     0x0000000000003d68       0x6c /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(cpu_util.o)
-                                        0x178 (size before relaxing)
- .debug_str     0x0000000000003dd4      0x15e /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                                        0x4e8 (size before relaxing)
- .debug_str     0x0000000000003f32       0xbc /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_init.o)
-                                        0x241 (size before relaxing)
- .debug_str     0x0000000000003fee      0x2b8 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
-                                        0x69f (size before relaxing)
- .debug_str     0x00000000000042a6       0x3c /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
-                                        0x142 (size before relaxing)
- .debug_str     0x00000000000042e2      0x164 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
-                                        0x44a (size before relaxing)
- .debug_str     0x0000000000004446      0x54f /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0xae6 (size before relaxing)
- .debug_str     0x0000000000004995      0x138 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+.debug_str      0x0000000000000000     0x4c0d
+ .debug_str     0x0000000000000000      0x2fb /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x35f (size before relaxing)
+ .debug_str     0x00000000000002fb      0xadb /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0xcd3 (size before relaxing)
+ .debug_str     0x0000000000000dd6      0x4d0 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0x99f (size before relaxing)
+ .debug_str     0x00000000000012a6      0x408 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                        0x92c (size before relaxing)
+ .debug_str     0x00000000000016ae      0x23c /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                        0x397 (size before relaxing)
+ .debug_str     0x00000000000018ea       0xb3 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x3bd (size before relaxing)
+ .debug_str     0x000000000000199d      0x2fb /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0xa2a (size before relaxing)
+ .debug_str     0x0000000000001c98      0x10f /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                                        0x352 (size before relaxing)
+ .debug_str     0x0000000000001da7       0x75 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                        0x247 (size before relaxing)
+ .debug_str     0x0000000000001e1c      0x217 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x5eb (size before relaxing)
+ .debug_str     0x0000000000002033     0x1884 /home/ubuntu/esp32-cc/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                                       0x1bb2 (size before relaxing)
+ .debug_str     0x00000000000038b7      0x186 /home/ubuntu/esp32-cc/build/bootloader/log/liblog.a(log.o)
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000003a3d      0x36c /home/ubuntu/esp32-cc/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                        0x752 (size before relaxing)
+ .debug_str     0x0000000000003da9       0x71 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(cpu_util.o)
+                                        0x17d (size before relaxing)
+ .debug_str     0x0000000000003e1a      0x163 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                                        0x4ed (size before relaxing)
+ .debug_str     0x0000000000003f7d       0xc1 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_init.o)
+                                        0x246 (size before relaxing)
+ .debug_str     0x000000000000403e      0x2bd /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                                        0x6a4 (size before relaxing)
+ .debug_str     0x00000000000042fb       0x41 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x000000000000433c      0x169 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                        0x44f (size before relaxing)
+ .debug_str     0x00000000000044a5      0x554 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0xaeb (size before relaxing)
+ .debug_str     0x00000000000049f9      0x138 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                         0x1de (size before relaxing)
- .debug_str     0x0000000000004acd       0xdc /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000004b31       0xdc /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                         0x258 (size before relaxing)
 
 .comment        0x0000000000000000       0x3a
@@ -3406,8 +3405,8 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .comment       0x000000000000003a       0x3b /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .comment       0x000000000000003a       0x3b /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .comment       0x000000000000003a       0x3b /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .comment       0x000000000000003a       0x3b /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .comment       0x000000000000003a       0x3b /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .comment       0x000000000000003a       0x3b /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .comment       0x000000000000003a       0x3b /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x0000000000000000       0x38
  .xtensa.info   0x0000000000000000       0x38 /home/ubuntu/esp32-cc/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3430,5 +3429,5 @@ OUTPUT(/home/ubuntu/esp32-cc/build/bootloader/bootloader.elf elf32-xtensa-le)
  .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_time.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp32-cc/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/ubuntu/esp32-cc/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)

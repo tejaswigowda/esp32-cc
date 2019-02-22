@@ -1,8 +1,8 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/spiffs/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/spiffs/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/spiffs -lspiffs
 COMPONENT_LINKER_DEPS += 
-COMPONENT_SUBMODULES += $(IDF_PATH)/components/spiffs/spiffs
+COMPONENT_SUBMODULES += $(PROJECT_PATH)/esp-idf/components/spiffs/spiffs
 COMPONENT_LIBRARIES += spiffs
 COMPONENT_LDFRAGMENTS += 
 component-spiffs-build: 

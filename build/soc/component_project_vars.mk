@@ -1,8 +1,8 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(IDF_PATH)/components/soc/esp32/include $(IDF_PATH)/components/soc/include
+COMPONENT_INCLUDES += $(PROJECT_PATH)/esp-idf/components/soc/esp32/include $(PROJECT_PATH)/esp-idf/components/soc/include
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/soc -lsoc
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 
 COMPONENT_LIBRARIES += soc
-COMPONENT_LDFRAGMENTS += $(IDF_PATH)/components/soc/linker.lf
+COMPONENT_LDFRAGMENTS += $(PROJECT_PATH)/esp-idf/components/soc/linker.lf
 component-soc-build: 
