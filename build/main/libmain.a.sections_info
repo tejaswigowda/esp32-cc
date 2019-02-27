@@ -1,4 +1,4 @@
-In archive /home/ubuntu/test/build/main/libmain.a:
+In archive /home/ubuntu/esp32-cc/build/main/libmain.a:
 
 main.o:     file format elf32-xtensa-le
 
@@ -58,17 +58,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  26 .debug_ranges 00000048  00000000  00000000  00005bb5  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 27 .debug_line   000009b5  00000000  00000000  00005bfd  2**0
+ 27 .debug_line   000009ed  00000000  00000000  00005bfd  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 28 .debug_str    00004af7  00000000  00000000  000065b2  2**0
+ 28 .debug_str    00004aff  00000000  00000000  000065ea  2**0
                   CONTENTS, READONLY, DEBUGGING
- 29 .comment      0000003b  00000000  00000000  0000b0a9  2**0
+ 29 .comment      0000003b  00000000  00000000  0000b0e9  2**0
                   CONTENTS, READONLY
- 30 .xtensa.info  00000038  00000000  00000000  0000b0e4  2**0
+ 30 .xtensa.info  00000038  00000000  00000000  0000b124  2**0
                   CONTENTS, READONLY
- 31 .xt.lit       00000028  00000000  00000000  0000b11c  2**0
+ 31 .xt.lit       00000028  00000000  00000000  0000b15c  2**0
                   CONTENTS, RELOC, READONLY
- 32 .xt.prop      0000018c  00000000  00000000  0000b144  2**0
+ 32 .xt.prop      0000018c  00000000  00000000  0000b184  2**0
                   CONTENTS, RELOC, READONLY
- 33 .xt.prop._ZTV9Printable 0000000c  00000000  00000000  0000b2d0  2**0
+ 33 .xt.prop._ZTV9Printable 0000000c  00000000  00000000  0000b310  2**0
                   CONTENTS, RELOC, READONLY
